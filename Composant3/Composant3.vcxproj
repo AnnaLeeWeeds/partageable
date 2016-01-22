@@ -147,6 +147,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Composant3.h" />
+    <ClInclude Include="Composant3Version.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
@@ -154,11 +155,6 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Composant3.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Composant1\Composant1.vcxproj">
-      <Project>{5001bdbb-2e45-485a-ab91-0c9770a413bc}</Project>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
